@@ -13,7 +13,7 @@ while(i<=7)
 
 //Qeustion 2
 
-for(let x=2;x<9 ; x++)
+for(let x=2;x<9 ; x+=2)
 {
     console.log(x);
 }
@@ -36,7 +36,7 @@ while(arr2[c])
     let x =arr2[c];
     if(!parseInt(x[0]))
     {
-    console.log(arr2[c]);
+        console.log(arr2[c]);
     }
         c++;
 }
